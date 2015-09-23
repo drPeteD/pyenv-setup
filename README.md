@@ -1,7 +1,7 @@
 #Steps to get started
 ___
 
-1. [Install](#Install)
+1. [Install](https://github.com/bf4648/pyenv-setup#install)
 2. [Update bash profile](https://github.com/bf4648/pyenv-setup#markdown-header-update-bash-profile)
 3. [Install python34](https://github.com/bf4648/pyenv-setup#markdown-header-install-python34)
 4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv-virtualenv)
