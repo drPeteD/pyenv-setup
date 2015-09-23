@@ -1,3 +1,4 @@
+___
 1. [Install pyenv](https://github.com/bf4648/pyenv-setup#install-pyenv "Install pyenv")
 2. [Update bash profile](https://github.com/bf4648/pyenv-setup#update-bash-profile "Update Bash Profile")
 3. [Install python35](https://github.com/bf4648/pyenv-setup#install-python35)
@@ -122,6 +123,7 @@ ___
 pyenv uninstall my-virtual-env
 ```
 ___
+
 #Install the module
 ## Ref: [editable-installs](https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs)
 ```
