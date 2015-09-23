@@ -1,7 +1,7 @@
 1. [Install pyenv](https://github.com/bf4648/pyenv-setup#install-pyenv "Install pyenv")
 2. [Update bash profile](https://github.com/bf4648/pyenv-setup#update-bash-profile "Update Bash Profile")
 3. [Install python35](https://github.com/bf4648/pyenv-setup#install-python35)
-4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv-virtualenv)
+4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#install-pyenv-virtualenv)
 6. [Source the bash profile entries](https://github.com/bf4648/pyenv-setup#markdown-header-source-the-bash-profile-entries)
 7. [Clone the project](https://github.com/bf4648/pyenv-setup#markdown-header-clone-the-project "Clone the project")
 8. [Create virtual environment](https://github.com/bf4648/pyenv-setup#markdown-header-create-virtual-environment "Create virtual environment")
