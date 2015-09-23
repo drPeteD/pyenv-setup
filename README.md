@@ -1,18 +1,18 @@
 #Steps to get started
 ___
 
-1. [Install pyenv](#markdown-header-install-pyenv)
-2. [Update bash profile](#markdown-header-update-bash-profile)
-3. [Install python34](#markdown-header-install-python34)
-4. [Install pyenv virtualenv](#markdown-header-install-pyenv-virtualenv)
-6. [Source the bash profile entries](#markdown-header-source-the-bash-profile-entries)
-7. [Clone the project](#markdown-header-clone-the-project "Clone the project")
-8. [Create virtual environment](#markdown-header-create-virtual-environment "Create virtual environment")
-9. [Activate virtualenv](#markdown-header-activate-virtualenv "Activate virtualenv")
-10. [Install the module](#markdown-header-install-the-module "Install the module")
-11. [View the installed modules](#markdown-header-view-the-installed-modules "View the installed modules")
-12. [Run the project](#markdown-header-run-the-project "Run the project")
-13. [Set up Pycharm](#markdown-header-set-up-pycharm "Set up Pycharm")
+1. [Install pyenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv)
+2. [Update bash profile](https://github.com/bf4648/pyenv-setup#markdown-header-update-bash-profile)
+3. [Install python34](https://github.com/bf4648/pyenv-setup#markdown-header-install-python34)
+4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv-virtualenv)
+6. [Source the bash profile entries](https://github.com/bf4648/pyenv-setup#markdown-header-source-the-bash-profile-entries)
+7. [Clone the project](https://github.com/bf4648/pyenv-setup#markdown-header-clone-the-project "Clone the project")
+8. [Create virtual environment](https://github.com/bf4648/pyenv-setup#markdown-header-create-virtual-environment "Create virtual environment")
+9. [Activate virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-activate-virtualenv "Activate virtualenv")
+10. [Install the module](https://github.com/bf4648/pyenv-setup#markdown-header-install-the-module "Install the module")
+11. [View the installed modules](https://github.com/bf4648/pyenv-setup#markdown-header-view-the-installed-modules "View the installed modules")
+12. [Run the project](https://github.com/bf4648/pyenv-setup#markdown-header-run-the-project "Run the project")
+13. [Set up Pycharm](https://github.com/bf4648/pyenv-setup#markdown-header-set-up-pycharm "Set up Pycharm")
 
 ##Install pyenv
 
