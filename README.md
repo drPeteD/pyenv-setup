@@ -1,8 +1,5 @@
-#Steps to get started
-___
-
-1. [Install Pyenv](https://github.com/bf4648/pyenv-setup#install-pyenv)
-2. [Update bash profile](https://github.com/bf4648/pyenv-setup#markdown-header-update-bash-profile)
+1. [Install Pyenv](https://github.com/bf4648/pyenv-setup#install-pyenv "Install Pyenv")
+2. [Update bash profile](https://github.com/bf4648/pyenv-setup#update-bash-profile "Update Bash Profile")
 3. [Install python34](https://github.com/bf4648/pyenv-setup#markdown-header-install-python34)
 4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv-virtualenv)
 6. [Source the bash profile entries](https://github.com/bf4648/pyenv-setup#markdown-header-source-the-bash-profile-entries)
@@ -14,6 +11,8 @@ ___
 12. [Run the project](https://github.com/bf4648/pyenv-setup#markdown-header-run-the-project "Run the project")
 13. [Set up Pycharm](https://github.com/bf4648/pyenv-setup#markdown-header-set-up-pycharm "Set up Pycharm")
 
+___
+
 #Install Pyenv
 
 ```
@@ -22,109 +21,109 @@ brew install pyenv
 
 ```
 
-##Update bash profile
-###Add the following to ~/.bash_profile
+#Update bash profile
+##Add the following to ~/.bash_profile
 
 ```
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
 
-###For fish prompts, update ~/.config/fish/config.fish
-####Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
+##For fish prompts, update ~/.config/fish/config.fish
+###Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
 ```
 status --is-interactive; and . (pyenv init - | psub)
 ```
 ___
 
-##Install python35
+#Install python35
 
-###See a list of versions
+##See a list of versions
 ```
 pyenv versions
 ```
-###Install python version
+##Install python version
 
 ```
 pyenv install 3.5.0
 ```
 
-###Switch to a python 3.5
+##Switch to a python 3.5
 ```
 pyenv global 3.5.0
 ```
 
-###Ensure that python3.5.0 is the current global python version
+##Ensure that python3.5.0 is the current global python version
 
 ```
 pyenv versions
 ```
 ___
 
-##Install pyenv virtualenv
+#Install pyenv virtualenv
 
 ```
 brew install pyenv-virtualenv
 ```
 
-###Update bash profile with the following entry
+##Update bash profile with the following entry
 
 ```
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 ```
 
-###For fish prompts, update ~/.config/fish.config.fish
-####Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
+##For fish prompts, update ~/.config/fish.config.fish
+###Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
 ```
 status --is-interactive; and . (pyenv virtualenv-init - | psub)
 ```
 ___
 
-##Source the bash profile entries
+#Source the bash profile entries
 
 ```
 source ~/.bash_profile
 ```
 ___
 
-##Clone a project
+#Clone a project
 ```
 git clone /path/to/project
 ```
 ___
 
-##Create virtual environment
+#Create virtual environment
 ```
 pyenv virtualenv 3.4.3 project-module-name-virtual-env-3.5.0
 ```
 ___
 
-##Activate virtualenv
+#Activate virtualenv
 
-###List the virtualenvs
+##List the virtualenvs
 
 ```
 pyenv virtualenvs
 ```
 
-###Activate the virtualenv
+##Activate the virtualenv
 ```
 pyenv activate project-module-name-virtual-env-3.5.0
 ```
 
-###To Deactivate virtualevn
+##To Deactivate virtualevn
 
 ```
 pyenv deactivate
 ```
 ___
-###To delete and existing pyenv 
+##To delete and existing pyenv 
 
 ```
 pyenv uninstall my-virtual-env
 ```
 ___
-##Install the module
-### Ref: [editable-installs](https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs)
+#Install the module
+## Ref: [editable-installs](https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs)
 ```
 cd /path/to/project
 pip install --allow-all-external -e .
@@ -132,20 +131,20 @@ pip install --upgrade pip
 ```
 ___
 
-##View the installed modules
-### Make sure that gtfsgenerator-cmd-proj is among the list of installed modules
+#View the installed modules
+## Make sure that gtfsgenerator-cmd-proj is among the list of installed modules
 ```
 pip list
 ```
 ___
 
-##Run the project
+#Run the project
 `gtfsgenerator-cmd-proj -h` or
 `python -m /path/to/project/module`
 ___
 
-##Set up Pycharm
-###Ref: [adding-existing-virtual-environment](https://www.jetbrains.com/pycharm/help/adding-existing-virtual-environment.html)
+#Set up Pycharm
+##Ref: [adding-existing-virtual-environment](https://www.jetbrains.com/pycharm/help/adding-existing-virtual-environment.html)
 
 1.  Pycharm > Preferences > Project Interpreter
 2.  In the drop-down list, choose **Add local**
