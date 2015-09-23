@@ -141,7 +141,7 @@ pip list
 ___
 
 #Run the project
-`gtfsgenerator-cmd-proj -h` or
+`module-name-cmd-proj -h` or
 `python -m /path/to/project/module`
 ___
 
