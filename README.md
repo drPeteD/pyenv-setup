@@ -21,6 +21,7 @@ brew update
 brew install pyenv
 
 ```
+___
 
 #Update bash profile
 ##Add the following to ~/.bash_profile
@@ -94,7 +95,7 @@ ___
 
 #Create virtual environment
 ```
-pyenv virtualenv 3.4.3 project-module-name-virtual-env-3.5.0
+pyenv virtualenv 3.5.0 project-module-name-virtual-env-3.5.0
 ```
 ___
 
