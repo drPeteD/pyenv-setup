@@ -1,7 +1,7 @@
 #Steps to get started
 ___
 
-1. [Install pyenv](#Install-pyenv)
+1. [Install](#Install)
 2. [Update bash profile](https://github.com/bf4648/pyenv-setup#markdown-header-update-bash-profile)
 3. [Install python34](https://github.com/bf4648/pyenv-setup#markdown-header-install-python34)
 4. [Install pyenv virtualenv](https://github.com/bf4648/pyenv-setup#markdown-header-install-pyenv-virtualenv)
@@ -14,7 +14,7 @@ ___
 12. [Run the project](https://github.com/bf4648/pyenv-setup#markdown-header-run-the-project "Run the project")
 13. [Set up Pycharm](https://github.com/bf4648/pyenv-setup#markdown-header-set-up-pycharm "Set up Pycharm")
 
-##Install pyenv
+#Install
 
 ```
 brew update
