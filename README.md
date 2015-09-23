@@ -151,5 +151,5 @@ ___
 1.  Pycharm > Preferences > Project Interpreter
 2.  In the drop-down list, choose **Add local**
 3.  Select the Python Interpreter using the following path (symlink python will point to the current python)
-	1.  `~/.pyenv/versions/module-name-virtual-env-3.
+	1.  `~/.pyenv/versions/module-name-virtual-env-3.`
 
