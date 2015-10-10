@@ -129,7 +129,7 @@ ___
 ## Ref: [editable-installs](https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs)
 ```
 cd /path/to/project
-pip install --allow-all-external -e .
+pip install --upgrade -e .
 pip install --upgrade pip
 ```
 ___
