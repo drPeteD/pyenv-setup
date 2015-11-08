@@ -67,20 +67,20 @@ ___
 brew install pyenv-virtualenv
 ```
 
-#If not done previously, update bash profile with the following:
++Update bash .profile with the following (if not present):
 
 ```
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 ```
 
-##For fish prompts, update ~/.config/fish.config.fish
-###Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
++For fish prompts, update ~/.config/fish.config.fish
+Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
 ```
 status --is-interactive; and . (pyenv virtualenv-init - | psub)
 ```
 ___
 
-#Source the bash profile entries (restart the shell without logging out/in)
++Source the bash profile entries (restart the shell without logging out/in)
 
 ```
 source ~/.bash_profile
