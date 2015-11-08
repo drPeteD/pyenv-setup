@@ -23,38 +23,38 @@ brew install pyenv
 ```
 ___
 
-#Update bash profile
-##Add the following to ~/.bash_profile
++Update bash profile
++Add the following to ~/.bash_profile
 
 ```
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
 
-##For fish prompts, update ~/.config/fish/config.fish
-###Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
++For fish prompts, update ~/.config/fish/config.fish
+Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
 ```
 status --is-interactive; and . (pyenv init - | psub)
 ```
 ___
 
-#Install python35
+#Install python 3.5.0
 
-##See a list of versions
++See a list of versions installed locally.
 ```
 pyenv versions
 ```
-##Install python version
++Install python version
 
 ```
 pyenv install 3.5.0
 ```
 
-##Switch to a python 3.5
++Switch to Python version 3.5.0
 ```
 pyenv global 3.5.0
 ```
 
-##Ensure that python3.5.0 is the current global python version
++Ensure that python3.5.0 is the current global python version
 
 ```
 pyenv versions
