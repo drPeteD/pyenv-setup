@@ -67,7 +67,7 @@ ___
 brew install pyenv-virtualenv
 ```
 
-##Update bash profile with the following entry
+#If not done previously, update bash profile with the following:
 
 ```
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
@@ -80,7 +80,7 @@ status --is-interactive; and . (pyenv virtualenv-init - | psub)
 ```
 ___
 
-#Source the bash profile entries
+#Source the bash profile entries (restart the shell without logging out/in)
 
 ```
 source ~/.bash_profile
