@@ -39,93 +39,85 @@ ___
 
 #Install python 3.5.0
 
-+See a list of versions installed locally.
+See a list of versions installed locally.
 ```
 pyenv versions
 ```
-+Install python version
-
+Install python version
 ```
 pyenv install 3.5.0
 ```
-
-+Switch to Python version 3.5.0
+Switch to Python version 3.5.0
 ```
 pyenv global 3.5.0
 ```
-
-+Ensure that python3.5.0 is the current global python version
-
+Ensure that python3.5.0 is the current global python version
 ```
 pyenv versions
 ```
 ___
 
 #Install pyenv virtualenv on OS X
-
 ```
 brew install pyenv-virtualenv
 ```
-
-+Update bash .profile with the following (if not present):
+Update bash .profile with the following (if not present):
 
 ```
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 ```
-
-+For fish prompts, update ~/.config/fish.config.fish
+For fish prompts, update ~/.config/fish.config.fish
 Ref: [fish-prompts-using-pyenv](https://github.com/yyuu/pyenv/issues/32)
 ```
 status --is-interactive; and . (pyenv virtualenv-init - | psub)
 ```
 ___
 
-+Source the profile entries (restart the shell without logging out/in)
-
+Source the profile entries (restart the shell without logging out/in)
 ```
 source ~/.profile
 ```
 ___
 
 #Clone a project
-+Clone local project to pwd using existing project name.
+Clone local project to pwd using existing project name.
 ```
 git clone /path/to/project
 ```
-+Clone repository to pwd using existing project name.
+Clone repository to pwd using existing project name.
 ```
 git clone https://github.com/drPeteD/hello-world.git
 ```
-+Clone repository to '~/pete/hello' from pwd.
+Clone repository to '~/pete/hello' from pwd.
 ```
 git clone https://github.com/drPeteD/hello-world.git ~/pete/hello
 ```
-+Clone repository to a server using SSH.
+Clone repository to a server using SSH.
 ```
 git clone git@github.com:drPeteD/hello-world.git
 ```
 ___
-#Create virtual environment
+Create virtual environment
 ```
 pyenv virtualenv 3.5.0 project-module-name-virtual-env-3.5.0
 ```
 ___
 #Activate virtualenv
 
-+List the virtualenvs
+List the virtualenvs
 ```
 pyenv virtualenvs
 ```
-+Activate the virtualenv
+Activate the virtualenv
 ```
 pyenv activate project-module-name-virtual-env-3.5.0
 ```
-+Deactivate virtualevn
+Deactivate virtualevn
 ```
 pyenv deactivate
 ```
 ___
-+Delete and existing pyenv 
+Delete and existing pyenv 
 ```
 pyenv uninstall my-virtual-env
 ```
@@ -139,7 +131,7 @@ pip install --upgrade pip
 ```
 ___
 #View the installed modules
-+Ensure that gtfsgenerator-cmd-proj is among the list of installed modules
+Ensure that module-name-cmd-proj is among the list of installed modules
 ```
 pip list
 ```
