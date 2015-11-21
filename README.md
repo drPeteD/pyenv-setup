@@ -11,7 +11,7 @@ ___
 11. [View the installed modules](https://github.com/bf4648/pyenv-setup#view-the-installed-modules "View the installed modules")
 12. [Run the project](https://github.com/bf4648/pyenv-setup#run-the-project "Run the project")
 13. [Set up Pycharm](https://github.com/bf4648/pyenv-setup#set-up-pycharm "Set up Pycharm")
-
+14. [Common build problems](https://github.com/yyuu/pyenv/wiki/Common-build-problems "Common build problems")
 ___
 
 #Install pyenv
