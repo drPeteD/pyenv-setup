@@ -61,7 +61,7 @@ pyenv versions
 ```
 ___
 
-#Install pyenv virtualenv
+#Install pyenv virtualenv on OS X
 
 ```
 brew install pyenv-virtualenv
@@ -80,55 +80,56 @@ status --is-interactive; and . (pyenv virtualenv-init - | psub)
 ```
 ___
 
-+Source the bash profile entries (restart the shell without logging out/in)
++Source the profile entries (restart the shell without logging out/in)
 
 ```
-source ~/.bash_profile
+source ~/.profile
 ```
 ___
 
 #Clone a project
-+Creat a directory for the project.
-
++Clone local project to pwd using existing project name.
 ```
 git clone /path/to/project
+```
++Clone repository to pwd using existing project name.
+```
 git clone https://github.com/drPeteD/hello-world.git
+```
++Clone repository to '~/pete/hello' from pwd.
+```
+git clone https://github.com/drPeteD/hello-world.git ~/pete/hello
+```
++Clone repository to a server using SSH.
+```
 git clone git@github.com:drPeteD/hello-world.git
 ```
 ___
-
 #Create virtual environment
 ```
 pyenv virtualenv 3.5.0 project-module-name-virtual-env-3.5.0
 ```
 ___
-
 #Activate virtualenv
 
-##List the virtualenvs
-
++List the virtualenvs
 ```
 pyenv virtualenvs
 ```
-
-##Activate the virtualenv
++Activate the virtualenv
 ```
 pyenv activate project-module-name-virtual-env-3.5.0
 ```
-
-##To Deactivate virtualevn
-
++Deactivate virtualevn
 ```
 pyenv deactivate
 ```
 ___
-##To delete and existing pyenv 
-
++Delete and existing pyenv 
 ```
 pyenv uninstall my-virtual-env
 ```
 ___
-
 #Install the module
 ## Ref: [editable-installs](https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs)
 ```
@@ -137,24 +138,19 @@ pip install --upgrade -e .
 pip install --upgrade pip
 ```
 ___
-
 #View the installed modules
-## Make sure that gtfsgenerator-cmd-proj is among the list of installed modules
++Ensure that gtfsgenerator-cmd-proj is among the list of installed modules
 ```
 pip list
 ```
 ___
-
 #Run the project
 `module-name-cmd-proj -h` or
 `python -m /path/to/project/module`
 ___
-
 #Set up Pycharm
 ##Ref: [adding-existing-virtual-environment](https://www.jetbrains.com/pycharm/help/adding-existing-virtual-environment.html)
-
 1.  Pycharm > Preferences > Project Interpreter
 2.  In the drop-down list, choose **Add local**
 3.  Select the Python Interpreter using the following path (symlink python will point to the current python)
 	1.  `~/.pyenv/versions/module-name-virtual-env-3.`
-
