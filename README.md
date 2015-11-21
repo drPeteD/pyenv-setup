@@ -88,8 +88,12 @@ source ~/.bash_profile
 ___
 
 #Clone a project
++Creat a directory for the project.
+
 ```
 git clone /path/to/project
+git clone https://github.com/drPeteD/hello-world.git
+git clone git@github.com:drPeteD/hello-world.git
 ```
 ___
 
